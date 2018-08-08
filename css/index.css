@@ -446,7 +446,9 @@ font-size: 18px;
 
 }
 .adv_boxright_photo1:hover{
-    box-shadow: 0px 0px 4px 4px rgba(0,0,0,0.1);
+    transition: all 0.5s;
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 4px 8px rgba(0,0,0,0.1);
 }
 .adv_boxright_photo li:first-child{
   margin-right: 14px;
@@ -472,7 +474,7 @@ font-size: 18px;
     line-height: 60px;
 }
 .right_logo{
-    width: 71px;
+    width: 68px;
     height: 24px;
     background: #ffffff;
     float: right;
@@ -481,11 +483,12 @@ font-size: 18px;
 .right_logo li{
     width: 34px;
     height: 22px;
+    color: #b0b0b0;
     background:#ffffff;
     float: left;
 }
 .type{
-    border: 1px solid #000000;
+    border: 1px solid #e0e0e0;
     text-align: center;
     line-height: 22px;
 
@@ -495,6 +498,9 @@ font-size: 18px;
     background: #fafafa;
 }
 .type1:hover{
+    color: #ff6700;
+}
+.type:hover{
     color: #ff6700;
 }
 .show{
@@ -516,7 +522,7 @@ font-size: 18px;
 .photo2{
     width: 185px;
     height: 166px;
-    background: darkgoldenrod;
+    /*background: darkgoldenrod;*/
     margin-left: 26px;
     margin-top: 33px;
     background-image: url('../img/1.png');
@@ -524,7 +530,7 @@ font-size: 18px;
 .photo3{
     width: 185px;
     height: 166px;
-    background: darkgoldenrod;
+    /*background: darkgoldenrod;*/
     margin-left: 26px;
     margin-top: 33px;
     background-image: url('../img/2.png');
@@ -532,7 +538,7 @@ font-size: 18px;
 .photo4{
     width: 185px;
     height: 166px;
-    background: darkgoldenrod;
+    /*background: darkgoldenrod;*/
     margin-left: 26px;
     margin-top: 33px;
     background-image: url('../img/3.png');
@@ -540,7 +546,7 @@ font-size: 18px;
 .photo5{
     width: 185px;
     height: 166px;
-    background: darkgoldenrod;
+    /*background: darkgoldenrod;*/
     margin-left: 26px;
     margin-top: 33px;
     background-image: url('../img/4_03.png');
@@ -750,7 +756,7 @@ font-size: 18px;
 .photo_lightning{
     width: 117px;
     height: 105px;
-    background: #fafafa;
+    /*background: #fafafa;*/
     float: left;
     margin-left: 58px;
     background-image: url('../img/shandian.png');
@@ -907,6 +913,8 @@ font-size: 18px;
 
 }
 .homein_left1:hover{
+    transition: all 0.5s;
+    transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
 .homein_left2{
@@ -917,6 +925,8 @@ font-size: 18px;
     background-image: url('../img/jiadian2.png');
 }
 .homein_left2:hover{
+    transition: all 0.5s;
+    transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
 .homein .homein_right{
@@ -961,6 +971,7 @@ float: right;
     transition: all 0.3s 0.3s linear;
 }
 .homein_right li:hover{
+    transition: all 0.5s;
     transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
@@ -1537,13 +1548,11 @@ float: right;
 .phone_right li{
     width: 238px;
     height: 290px;
-    /*margin-top: 10px;*/
-    /*margin-right: 2px;*/
-    /*margin-bottom: 1px;*/
     float: left;
     background: #ffffff;
 }
 .phone_right li:hover{
+    transition: all 0.5s;
     transform: translateY(-2px);
     box-shadow: 0px 0px 10px 4px rgba(0,0,0,0.1);
 }
@@ -1670,6 +1679,7 @@ float: right;
     position: relative;
 }
 .buzz_inbelow li:hover{
+    transition: all 0.5s;
     transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
@@ -1850,6 +1860,7 @@ float: right;
     margin-right: 28px;
 }
 .content ul li:hover{
+    transition: all 0.5s;
     transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
@@ -2023,6 +2034,10 @@ float: right;
     margin-right: 20px;
     cursor: pointer;
 
+
+}
+.video_topright1 .wz1{
+    color: black;
 }
 .video_topright1 .wz1:hover{
     color: #ff6700;
@@ -2058,6 +2073,7 @@ float: right;
     position: relative;
 }
 .video_bottow li:hover{
+    transition: all 0.5s;
     transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
@@ -2141,6 +2157,7 @@ float: right;
     position: relative;
 }
 .recommend ul li:hover{
+    transition: all 0.5s;
     transform: translateY(-2px);
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
