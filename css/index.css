@@ -1373,6 +1373,8 @@ float: right;
     position: relative;
 }
 .photo81:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
 .photo82{
@@ -1385,6 +1387,8 @@ float: right;
 
 }
 .photo82:hover{
+    transform: translateY(-2px);
+    transition: 0.5s;
     box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.1);
 }
 .photo81_words1{
